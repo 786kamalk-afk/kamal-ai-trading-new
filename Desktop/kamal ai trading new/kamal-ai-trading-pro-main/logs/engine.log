@@ -1,0 +1,10 @@
+2025-08-29 19:45:52,455 INFO engine: Demo signal emitted: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476952.4551973}}
+2025-08-29 19:45:57,463 INFO engine: Demo signal emitted: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476957.4634938}}
+2025-08-29 19:46:02,471 INFO engine: Demo signal emitted: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476962.4713788}}
+2025-08-29 19:46:07,475 INFO engine: Demo signal emitted: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476967.4754505}}
+2025-08-29 19:46:12,495 INFO engine: Demo signal emitted: {'symbol': 'RELIANCE', 'direction': 'BUY', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476972.4957674}}
+2025-08-29 19:46:17,507 INFO engine: Demo signal emitted: {'symbol': 'TCS', 'direction': 'SELL', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476977.5073757}}
+2025-08-29 19:46:22,531 INFO engine: Demo signal emitted: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476982.531515}}
+2025-08-29 19:46:27,568 INFO engine: Demo signal emitted: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476987.56873}}
+2025-08-29 19:46:32,585 INFO engine: Demo signal emitted: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476992.5854776}}
+2025-08-29 19:46:37,583 INFO engine: Demo signal emitted: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476997.5832512}}

@@ -1,0 +1,14 @@
+version: 1
+ai_policies:
+  confirmations:
+    always_confirm_real_orders: true
+    confirm_if_confidence_below: 0.7
+  safeguards:
+    block_if_daily_drawdown_exceeds_pct: 2.0
+    block_if_latency_ms_above: 800
+  coaching:
+    suggest_position_sizing: true
+    explain_score_components: true
+  defaults:
+    time_in_force: "DAY"
+    sl_trailing_multiplier: 1.5

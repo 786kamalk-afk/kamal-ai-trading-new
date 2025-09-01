@@ -1,0 +1,18 @@
+{
+  "renames": [],
+  "import_updates": [],
+  "import_failures": [],
+  "pytest": {
+    "returncode": 5,
+    "stdout": "\nno tests ran in 0.02s\n",
+    "stderr": ""
+  },
+  "errors": [],
+  "zip": "C:\\Users\\LENOVO\\Desktop\\kamal_ai_trading_pro_final_fixed.zip",
+  "summary": {
+    "py_count": 1,
+    "dupe_count": 0,
+    "import_files_modified": 0,
+    "import_failures_count": 0
+  }
+}

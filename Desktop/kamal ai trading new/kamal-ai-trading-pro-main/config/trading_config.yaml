@@ -1,0 +1,10 @@
+# config/trading_config.yaml
+mode: "SAFE"            # SAFE | SEMI | LIVE
+max_daily_loss: 5000   # currency units (e.g., INR)
+max_single_trade_risk_pct: 0.5  # percent of equity
+max_lots_per_order: 10
+min_order_interval_ms: 200    # basic rate limiting
+require_stoploss: true
+heartbeat_interval_sec: 10
+duplicate_filter_seconds: 30  # avoid same-order duplicates within this window
+log_orders_file: "logs/orders.log"   # will be created

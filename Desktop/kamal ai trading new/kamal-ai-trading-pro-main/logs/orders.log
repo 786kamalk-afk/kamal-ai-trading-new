@@ -1,0 +1,31 @@
+2025-08-29 19:45:52,453 INFO order_manager: OrderManager started
+2025-08-29 19:45:52,456 INFO order_manager: Order queued: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476952.4551973}}
+2025-08-29 19:45:52,456 INFO order_manager: Dry-run preview: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476952.4551973}}
+2025-08-29 19:45:52,457 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:45:57,466 INFO order_manager: Order queued: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476957.4634938}}
+2025-08-29 19:45:57,467 INFO order_manager: Dry-run preview: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476957.4634938}}
+2025-08-29 19:45:57,469 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:02,474 INFO order_manager: Order queued: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476962.4713788}}
+2025-08-29 19:46:02,476 INFO order_manager: Dry-run preview: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476962.4713788}}
+2025-08-29 19:46:02,479 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:07,479 INFO order_manager: Order queued: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476967.4754505}}
+2025-08-29 19:46:07,484 INFO order_manager: Dry-run preview: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476967.4754505}}
+2025-08-29 19:46:07,486 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:12,498 INFO order_manager: Order queued: {'symbol': 'RELIANCE', 'direction': 'BUY', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476972.4957674}}
+2025-08-29 19:46:12,499 INFO order_manager: Dry-run preview: {'symbol': 'RELIANCE', 'direction': 'BUY', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476972.4957674}}
+2025-08-29 19:46:12,501 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:17,511 INFO order_manager: Order queued: {'symbol': 'TCS', 'direction': 'SELL', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476977.5073757}}
+2025-08-29 19:46:17,513 INFO order_manager: Dry-run preview: {'symbol': 'TCS', 'direction': 'SELL', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476977.5073757}}
+2025-08-29 19:46:17,516 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:22,558 INFO order_manager: Order queued: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476982.531515}}
+2025-08-29 19:46:22,564 INFO order_manager: Dry-run preview: {'symbol': 'NIFTY', 'direction': 'BUY', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476982.531515}}
+2025-08-29 19:46:22,565 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:27,571 INFO order_manager: Order queued: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476987.56873}}
+2025-08-29 19:46:27,577 INFO order_manager: Dry-run preview: {'symbol': 'RELIANCE', 'direction': 'SELL', 'qty': 2, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476987.56873}}
+2025-08-29 19:46:27,580 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:32,586 INFO order_manager: Order queued: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476992.5854776}}
+2025-08-29 19:46:32,588 INFO order_manager: Dry-run preview: {'symbol': 'TCS', 'direction': 'BUY', 'qty': 3, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476992.5854776}}
+2025-08-29 19:46:32,591 INFO order_manager: Mode is SAFE -> not placing order automatically
+2025-08-29 19:46:37,586 INFO order_manager: Order queued: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476997.5832512}}
+2025-08-29 19:46:37,588 INFO order_manager: Dry-run preview: {'symbol': 'NIFTY', 'direction': 'SELL', 'qty': 1, 'stop': 100.0, 'risk_amount': 50.0, 'meta': {'source': 'demo_ai', 'ts': 1756476997.5832512}}
+2025-08-29 19:46:37,591 INFO order_manager: Mode is SAFE -> not placing order automatically

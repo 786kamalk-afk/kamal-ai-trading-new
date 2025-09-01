@@ -1,0 +1,16 @@
+signals:
+  - symbol: NIFTY
+    direction: BUY
+    qty: 2
+    stop: 150.0
+    risk_amount: 100.0
+  - symbol: RELIANCE
+    direction: SELL
+    qty: 1
+    stop: 200.0
+    risk_amount: 50.0
+  - symbol: TCS
+    direction: BUY
+    qty: 5
+    stop: 120.0
+    risk_amount: 250.0

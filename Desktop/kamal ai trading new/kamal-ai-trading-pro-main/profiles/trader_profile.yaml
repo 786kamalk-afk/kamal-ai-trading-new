@@ -1,0 +1,31 @@
+version: 1
+trader:
+  name: "Kamal"
+  experience_level: "intermediate"  # novice | intermediate | advanced
+  focus_markets: ["NSE", "BSE"]
+  allowed_instruments: ["FUTURES", "OPTIONS", "EQ"]
+  max_concurrent_positions: 4
+  preferred_strategies: ["scalping", "intraday"]
+  lot_size_preference: "broker_default"
+  risk_tolerance: "medium"
+  goals:
+    - "improve exit discipline"
+    - "use trailing stops instead of fixed"
+
+risk:
+  daily_loss_limit_pct: 2.0
+  max_single_trade_risk_pct: 0.5
+  require_confirmations:
+    market_order: true
+    stop_loss_wider_than_atr: true
+  panic_rules:
+    kill_switch_on_drawdown_pct: 3.0
+    flatten_all_if_vix_spike: true
+
+ui:
+  show_explanations: true
+  hotkeys:
+    buy_market: "b"
+    sell_market: "s"
+    close_all: "X"
+    toggle_chat: "/"

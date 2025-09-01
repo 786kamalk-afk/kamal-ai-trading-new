@@ -1,0 +1,9 @@
+"""Auto-generated stub for config/symbol_profiles.py\nCreated 2025-08-29 12:00:30.\nReplace with real logic.\n"""
+class SymbolProfiles:
+    """Placeholder for symbol_profiles. Implement real logic."""
+
+    def __init__(self, **kwargs):
+        self.config = kwargs
+
+    def run(self, *args, **kwargs):
+        return {"status": "stub", "module": "symbol_profiles"}
