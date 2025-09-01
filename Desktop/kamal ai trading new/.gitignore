@@ -1,0 +1,42 @@
+# Windows system files
+Thumbs.db
+desktop.ini
+*.log
+*.ini
+*.DAT
+*.regtrans-ms
+*.blf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and dist
+build/
+dist/
+*.spec
+output/
+
+# IDE configs
+.vscode/
+.idea/
+
+# User folders (not needed in repo)
+../../Music/
+../../Pictures/
+../../Videos/
+../../Saved Games/
+../../Searches/
+../../OneDrive/
+../../NSS/
+../../terminal/
+../../kamal trading ai pro/
+../../kamal-kishor/
+../../mentalmentor/

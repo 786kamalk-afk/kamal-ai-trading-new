@@ -1,22 +1,20 @@
+# Kamal AI Trading — Pro Setup (Intraday + Delivery)
 
----
+**Goal:** user-friendly, high-clarity trading toolkit with AI-assisted flows.
 
-## ⚡ Features
-- ✅ **AI Decision Maker** → Uses LLM / ML to analyze signals  
-- ✅ **Real-Time Signal Bus** → Pub/Sub queue for signals  
-- ✅ **Modular Strategies** → Plug-and-play trading strategies  
-- ✅ **Order Execution Layer** → Broker API adapters  
-- ✅ **Risk Management** → Position sizing, stop-loss, exposure control  
-- ✅ **Kill-Switch Service** → Remote emergency stop  
-- ✅ **Monitoring** → `/metrics` endpoint, Prometheus, Grafana dashboard  
-- ✅ **Paper & Live Trading Modes**  
-
----
-
-## ⚙️ Installation
-```bash
-git clone https://github.com/786kamalk-afk/kamal-ai-trading-pro.git
-cd kamal-ai-trading-pro
+## Quick Start
+```
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+. .venv/Scripts/activate      # PowerShell: .\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+copy .env.example .env        # then edit .env
+uvicorn app.main:app --reload
+```
+
+## Structure
+- `app/` — FastAPI service (friend-like chat endpoint)
+- `trading_strategies/` — `intraday.py`, `delivery.py`
+- `config/settings.yaml` — central config; `.env.example` for secrets
+- other modules from your project are preserved
+- `STRUCTURE-TREE.txt` — full file list

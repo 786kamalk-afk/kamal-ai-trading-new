@@ -1,0 +1,13 @@
+app:
+  name: kamal-ai-trading
+  mode: ${MODE:paper}
+openai:
+  api_key: ${OPENAI_API_KEY:}
+  model: ${OPENAI_MODEL:gpt-4o-mini}
+risk:
+  max_risk_per_trade: ${MAX_RISK_PER_TRADE:0.01}
+  daily_max_drawdown: ${DAILY_MAX_DRAWDOWN:0.05}
+broker:
+  name: ${BROKER:paper}
+data:
+  yfinance_enabled: ${YFINANCE_ENABLED:true}
